@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Sans+3:wght@300&display=swap');
+
+* {
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0;
+}
+
+.top {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.topwrap {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topright {
+    display: flex;
+    align-items: center;
+}
+
+.iconos {
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.iconos {
+    position: relative;
+    color: gray;
+    border-radius: 5px;
+}
+
+.iconos:hover {
+    background-color: rgb(156, 156, 255);
+}
+
+.dataicon {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: -5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.perfil {
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
+
+.leftbar {
+    flex: 1;
+    height: calc(100vh);
+
+    top: 50px;
+    background-color: rgb(238, 238, 238);
+}
+
+.leftwrap {
+    padding: 20px;
+    color: gray;
+
+}
+
+.menu {
+    margin-bottom: 10px;
+}
+
+.sidetitle {
+    font-size: 23px;
+    color: rgb(71, 71, 71);
+}
+
+.menulist {
+    list-style: none;
+    padding: 5px;
+}
+
+.listitems {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+}
+
+.listitems:hover {
+    background-color: rgb(156, 156, 255);
+
+}
+
+.sideicons {
+    margin-right: 5px;
+
+}
+
+.paginas {
+    flex: 5;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+
+.informacion {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+}
+
+.infoitem {
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 3px 19px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 3px 19px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 3px 19px 0px rgba(0, 0, 0, 1);
+
+}
+
+.infotitle {
+    font-size: medium;
+    text-align: center;
+}
+
+.infomoneycontainer {
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.iconinfo {
+    padding-left: 8px;
+}
+
+.pages {
+    padding-top: 50px;
+}
+
+.grafico {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titlechar {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.titlesec {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.productos {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.titulo_sec {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+
+}
+
+.articulo {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15.5px;
+}
+
+.conpro {
+    padding: 0.2rem;
+    text-align: center;
+
+}
+.imagenes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .desc{
+    text-align: justify;
+  }
+  .topcenter{
+    font-size: 50px;
+    color: rgb(103, 103, 249);
+    font-weight: bold;
+  }
